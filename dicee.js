@@ -15,34 +15,34 @@ function dice() {
 
   function rollDice1() {
     if (random1 === 1) {
-      document.querySelector(".img1").setAttribute("src", "images/dice1.png");
+      document.querySelector(".img1").setAttribute("src", "dice1.png");
     } else if (random1 === 2) {
-      document.querySelector(".img1").setAttribute("src", "images/dice2.png");
+      document.querySelector(".img1").setAttribute("src", "dice2.png");
     } else if (random1 === 3) {
-      document.querySelector(".img1").setAttribute("src", "images/dice3.png");
+      document.querySelector(".img1").setAttribute("src", "dice3.png");
     } else if (random1 === 4) {
-      document.querySelector(".img1").setAttribute("src", "images/dice4.png");
+      document.querySelector(".img1").setAttribute("src", "dice4.png");
     } else if (random1 === 5) {
-      document.querySelector(".img1").setAttribute("src", "images/dice5.png");
+      document.querySelector(".img1").setAttribute("src", "dice5.png");
     } else {
-      document.querySelector(".img1").setAttribute("src", "images/dice6.png");
+      document.querySelector(".img1").setAttribute("src", "dice6.png");
     }
   }
 
   function rollDice2() {
 
     if (random2 === 1) {
-      document.querySelector(".img2").setAttribute("src", "images/dice1.png");
+      document.querySelector(".img2").setAttribute("src", "dice1.png");
     } else if (random2 === 2) {
-      document.querySelector(".img2").setAttribute("src", "images/dice2.png");
+      document.querySelector(".img2").setAttribute("src", "dice2.png");
     } else if (random2 === 3) {
-      document.querySelector(".img2").setAttribute("src", "images/dice3.png");
+      document.querySelector(".img2").setAttribute("src", "dice3.png");
     } else if (random2 === 4) {
-      document.querySelector(".img2").setAttribute("src", "images/dice4.png");
+      document.querySelector(".img2").setAttribute("src", "dice4.png");
     } else if (random2 === 5) {
-      document.querySelector(".img2").setAttribute("src", "images/dice5.png");
+      document.querySelector(".img2").setAttribute("src", "dice5.png");
     } else {
-      document.querySelector(".img2").setAttribute("src", "images/dice6.png");
+      document.querySelector(".img2").setAttribute("src", "dice6.png");
     }
   }
 
